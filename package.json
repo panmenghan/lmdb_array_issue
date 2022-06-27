@@ -1,0 +1,22 @@
+{
+  "name": "term",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:client": "vite",
+    "dev:server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lmdb": "2.5.3",
+    "ws": "8.8.0"
+  },
+  "devDependencies": {
+    "vite": "2.9.12",
+    "xterm": "4.18.0",
+    "xterm-addon-attach": "0.6.0"
+  }
+}
